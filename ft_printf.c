@@ -46,3 +46,9 @@ int	ft_printf(char const *str, ...)
 	va_end(va);
 	return (counter);
 }
+
+int main(void)
+{
+	ft_printf("Hola");
+	return(0);
+}
